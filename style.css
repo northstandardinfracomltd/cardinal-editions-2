@@ -122,74 +122,75 @@ body {
   place-items: center;
   margin: 0 1rem;
 }
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+
+
+
+
+
+
+
+/* Fichier CSS externe (styles.css) */
+.container {
+    display: grid;
+  width: 100%;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+    background-color: green; /* Arrière-plan vert */
 }
 
-/* Very light scaling for our illustration */
-.title {
-  color: #2800FF;
-  font-family: HK Grotesk;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 100px;
-  line-height: 105%;
-  margin: 0;
+.colonne {
+    padding: 20px; /* Espacement interne pour un meilleur aspect */
+    border: 1px solid black; /* Bordure pour délimiter les colonnes (facultatif) */
 }
 
-/* Very light scaling for our illustration */
-.illustration {
-  max-width: 100%;
-  max-height: var(--image-max-width);
-  margin-top: var(--image-margin);
+
+
+
+        .perk {
+            width: 300px; /* Largeur de la div */
+            border: 1px solid #ccc; /* Bordure de la div */
+            padding: 10px; /* Espacement intérieur de la div */
+        }
+
+        .image {
+            max-width: 200px; /* Largeur maximale de l'image */
+        }
+
+        .text {
+            margin-top: 10px; /* Marge supérieure pour séparer l'image du texte */
+        }
+
+
+
+
+
+
+
+
+
+
+.custom-container {
+    text-align: center;
 }
 
-/* Instructions */
-.instructions {
-  margin: 1rem auto 0;
+.custom-level-1 {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/* Button - Add it from the README instructions */
-button,
-input {
-  font-family: inherit;
-  font-size: 100%;
-  background: #FFFFFF;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 0.5rem 1rem;
-  transition: 500ms;
+.custom-image {
+    max-width: 200px;
+    height: auto;
 }
 
-/* Subheading */
-h2 {
-  color: #2800FF;
-}
-
-/* Interactive image */
-.illustration:active {
-  transform: translateY(5px);
-}
-
-/* Button dip
-- Toggling this class on and off will move it down and up again
-- The button transition property above determines the speed of the translate (500ms)
-*/
-.dipped {
-  transform: translateY(5px);
-}
-
-/* Links that open files in the editor */
-.fileopener {
-  cursor:pointer;
-  font-weight:bold;
-  border-bottom:3px solid var(--color-primary);
-  color: var(--color-secondary);
-}
-.fileopener:hover {
-  border-bottom:3px solid var(--color-secondary);
+.custom-yellow-button {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
 }
