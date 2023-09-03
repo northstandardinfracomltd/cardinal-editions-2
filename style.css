@@ -226,7 +226,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
     background-size: cover;
     background-position: center bottom;
 }
@@ -319,3 +319,38 @@ body {
     font-family: "saasduoPAR" !important;
     text-decoration: none !important;
 }
+
+
+
+
+
+
+
+
+.containerbtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonred {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+    background-color: red;
+}
+
+
+.buttongreen {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: green;
+}
+
