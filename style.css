@@ -112,7 +112,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: HK Grotesk;
-  background-color: #000;
+  background-color: #363636;
   margin: 0px !important;
 }
 
@@ -278,7 +278,7 @@ body {
         }
 
         .stageimage {
-            max-width: 200px; /* Largeur maximale de l'image */
+            max-width: 250px; /* Largeur maximale de l'image */
         }
 
         .stagetext {
