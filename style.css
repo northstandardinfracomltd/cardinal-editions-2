@@ -194,3 +194,49 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Styles pour la div container */
+.custom-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
+    max-height: 500px;
+  grid-column-gap: 20px; 
+  margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+/* Styles pour chaque colonne */
+.custom-column2 {
+    max-height: 500px;
+  height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+/* Styles pour le texte dans chaque colonne */
+.custom-column2 p {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour le texte */
+    padding: 10px;
+}
+
+/* Définition de l'image de fond en utilisant les attributs de données personnalisés */
+.custom-column2[data-bg-image] {
+    background-image: url(attr(data-bg-image)); /* Utilisation de l'attribut de données pour l'URL de l'image de fond */
+}
