@@ -135,13 +135,26 @@ body {
 .container {
     display: grid;
   width: 100%;
-    grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */  
+  background: radial-gradient( farthest-side at bottom left, #7edd92, transparent 500px ), radial-gradient(farthest-side at center, #008453, transparent), radial-gradient( farthest-side at top right, #6ec500, #cdff3f, transparent 900px ), radial-gradient( farthest-side at bottom right, #eefdd1, #2aac67, transparent 900px );
+}
+
+
+
+
+
+
+
+.ambianttrigger {
     background-color: #008453; /* Arrière-plan vert */
 }
 
+
+
+
+
 .colonne {
     padding: 20px; /* Espacement interne pour un meilleur aspect */
-    border: 1px solid black; /* Bordure pour délimiter les colonnes (facultatif) */
 }
 
 
@@ -180,7 +193,7 @@ body {
 }
 
 .custom-image {
-    max-width: 460px;
+    max-width: 360px;
     height: auto;
 }
 
@@ -263,7 +276,7 @@ body {
             max-width: 560px; /* Largeur maximale de l'image */
             margin-left: auto;
             margin-right: auto;
-
+padding: 10px;
         }
 
 
