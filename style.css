@@ -135,7 +135,7 @@ body {
     display: grid;
   width: 100%;
     grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
-    background-color: green; /* Arrière-plan vert */
+    background-color: #008453; /* Arrière-plan vert */
 }
 
 .colonne {
@@ -170,17 +170,16 @@ body {
 
 
 .custom-container {
-    text-align: center;
+    text-align: left;
 }
 
 .custom-level-1 {
     max-width: 200px;
-    margin: 0 auto;
     padding: 20px;
 }
 
 .custom-image {
-    max-width: 200px;
+    max-width: 460px;
     height: auto;
 }
 
