@@ -211,6 +211,9 @@ body {
 /* Styles pour la div container */
 .custom-container2 {
     display: grid;
+  max-width: 1400px;
+  margin-left: auto; 
+  margin-right: auto;
     grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
     max-height: 500px;
   grid-column-gap: 20px; 
