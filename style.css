@@ -133,7 +133,9 @@ body {
 
 /* Fichier CSS externe (styles.css) */
 .container {
-    display: grid;
+    display: block;
+  text-align: center;
+  padding: 35px;
   width: 100%;
     grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */  
   background: radial-gradient( farthest-side at bottom left, #7edd92, transparent 500px ), radial-gradient(farthest-side at center, #008453, transparent), radial-gradient( farthest-side at top right, #6ec500, #cdff3f, transparent 900px ), radial-gradient( farthest-side at bottom right, #eefdd1, #2aac67, transparent 900px );
@@ -166,7 +168,11 @@ body {
         }
 
         .image {
-            max-width: 300px; /* Largeur maximale de l'image */
+            max-width: 460px; /* Largeur maximale de l'image */
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          justify-content: center;
         }
 
         .text {
@@ -194,6 +200,8 @@ body {
 .custom-image {
     max-width: 360px;
     height: auto;
+  text-align: left !important;
+  margin-right: auto;
 }
 
 .custom-yellow-button {
