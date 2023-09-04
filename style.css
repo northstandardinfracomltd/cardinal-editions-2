@@ -137,6 +137,11 @@ body {
   text-align: center;
   padding: 35px;
   width: 100%;
+  
+  
+  border-radius: 0px 0px 90px 90px;
+  
+  
     grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */  
   background: radial-gradient( farthest-side at bottom left, #7edd92, transparent 500px ), radial-gradient(farthest-side at center, #008453, transparent), radial-gradient( farthest-side at top right, #6ec500, #cdff3f, transparent 900px ), radial-gradient( farthest-side at bottom right, #eefdd1, #2aac67, transparent 900px );
 }
@@ -149,6 +154,8 @@ body {
 
 .ambianttrigger {
     background-color: #008453; /* Arrière-plan vert */
+    border-radius: 0px 0px 90px 90px;
+
 }
 
 
