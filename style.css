@@ -112,7 +112,7 @@ body {
 
 
 .text1 {
-  max-width: 670px;
+  max-width: 580px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -120,7 +120,7 @@ body {
   color: #fff;
   font-size: 22px;
   line-height: 34px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 
@@ -133,6 +133,7 @@ body {
   color: #fff;
   font-size: 22px;
   line-height: 34px;
+    margin-top: 38px;
 }
 
 
@@ -171,8 +172,8 @@ a.linktext {
 
 
 .whatwedo1:hover {
-      cursor: pointer;
-    transform: scale(1.04) rotate(6deg);
+      cursor: none;    
+  transform: scale(1.04) rotate(6deg);
     box-shadow: 0 0 0px 4px #008eff38;
 }
 
@@ -195,7 +196,7 @@ a.linktext {
 
 
 .whatwedo2:hover {
-      cursor: crosshair;
+      cursor: none;
     transform: scale(1.04) rotate(-6deg);
     box-shadow: 0 0 0px 4px #008eff38;
 }
@@ -217,7 +218,7 @@ a.linktext {
 
 
 .whatwedo3:hover {
-      cursor: pointer;
+      cursor: none;
     transform: scale(1.04) rotate(6deg);
     box-shadow: 0 0 0px 4px #008eff38;
 }
@@ -271,8 +272,10 @@ a.linktext {
         }
 
         .image {
-            max-width: 460px; /* Largeur maximale de l'image */
+            max-width: 480px; /* Largeur maximale de l'image */
           margin-left: auto;
+          margin-top: 20px;
+          margin-bottom: 20px;
           margin-right: auto;
           text-align: center;
           justify-content: center;
