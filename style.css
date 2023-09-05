@@ -47,6 +47,18 @@ to this section's matching END comment to see page-specific styles.
     format("opentype");
 }
 
+
+@font-face {
+  font-family: CardinalEditionsFontText;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/58eb7363-5172-4c0b-9ab1-cc19cfb0fb87/05422eb499ddf5616e44a52c4f1063ae.woff2?v=1693903296019")
+    format("opentype");
+}
+
+
+
+
+
 /* Our remix on glitch button */
 .btn--remix {
   font-family: HK Grotesk;
@@ -122,6 +134,30 @@ body {
   display: grid;
   place-items: center;
   margin: 0 1rem;
+}
+
+
+
+
+
+
+.text1 {
+  max-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.text2 {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+    font-family: "CardinalEditionsFontText";
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
 }
 
 
