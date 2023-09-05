@@ -417,7 +417,7 @@ a.linktext {
 
 
 .custom-column2:hover {
-  cursor: pointer;
+  cursor: none;
     transform: scale(1.01);
     box-shadow: 0 0 0px 4px #008eff38;
 }
