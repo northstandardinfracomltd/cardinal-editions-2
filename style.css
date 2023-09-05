@@ -56,6 +56,15 @@ to this section's matching END comment to see page-specific styles.
 }
 
 
+@font-face {
+  font-family: CardinalEditionsFontTitle;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/58eb7363-5172-4c0b-9ab1-cc19cfb0fb87/Bold-875de5047556e7c822519d95d7ee692d-font.woff2?v=1693907877062")
+    format("opentype");
+}
+
+
+
 
 
 
@@ -135,6 +144,37 @@ body {
   line-height: 34px;
     margin-top: 38px;
 }
+
+
+.text3 {
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+      font-family: "CardinalEditionsFontTitle";
+  color: #fff;
+  text-transform: Uppercase;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 70px;
+  margin-top: 85px;
+}
+
+.text4 {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+      font-family: "CardinalEditionsFontText";
+  color: #fff;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+      background-color: rgb(0 0 0 / 56%);
+}
+
+
 
 
 a.linktext {
@@ -236,7 +276,7 @@ a.linktext {
   width: 100%;
   
   
-  border-radius: 0px 0px 90px 90px;
+  border-radius: 0px 0px 0px 0px;
   
   
     grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */  
@@ -251,7 +291,7 @@ a.linktext {
 
 .ambianttrigger {
     background-color: #008453; /* Arrière-plan vert */
-    border-radius: 0px 0px 90px 90px;
+    border-radius: 0px 0px 0px 0px;
 
 }
 
@@ -378,9 +418,7 @@ a.linktext {
 
 /* Styles pour le texte dans chaque colonne */
 .custom-column2 p {
-    color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour le texte */
     padding: 10px;
 }
 
