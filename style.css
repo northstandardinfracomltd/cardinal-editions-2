@@ -103,7 +103,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: HK Grotesk;
-  background-color: #363636;
+  background-color: #008453;
   margin: 0px !important;
 }
 
@@ -660,7 +660,7 @@ text-align: left;
   width: 100%;
   display: flex;
   justify-content: space-between;
-    border-top: 1px solid #41414180;
+    border-top: 1px solid #278a6666;
 grid-template-columns: repeat(2, 1fr);
 
 }
@@ -670,9 +670,9 @@ grid-template-columns: repeat(2, 1fr);
   text-align: center;
   padding: 10px;
   border: none;
-  border-right: 1px solid #41414180;
+  border-right: 1px solid #278a6666;
   cursor: pointer;
-    background-color: #36363673;
+    background-color: #00845363;
   height: 72px;
     border-radius: 0px 0px 0px 12px;
       font-family: "CardinalEditionsFontText";
@@ -683,7 +683,7 @@ grid-template-columns: repeat(2, 1fr);
 
 
 .buttonred:hover {
-  background-color: #174bd2;
+  background-color: #008453a3;
   border-radius: 0px 0px 0px 12px;
 }
 
@@ -698,7 +698,7 @@ grid-template-columns: repeat(2, 1fr);
   padding: 10px;
   border: none;
   cursor: pointer;
-  background-color: #36363673;
+  background-color: #00845363;
     height: 72px;
     border-radius: 0px 0px 12px 0px;
         font-family: "CardinalEditionsFontText";
@@ -709,7 +709,7 @@ grid-template-columns: repeat(2, 1fr);
 
 
 .buttongreen:hover {
-  background-color: #008453;
+  background-color: #008453a3;
   border-radius: 0px 0px 12px 0px;
 }
 
