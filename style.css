@@ -364,9 +364,28 @@ a.linktext {
 .custom-image {
     max-width: 360px;
     height: auto;
-  text-align: left !important;
+  text-align: center !important;
   margin-right: auto;
+  margin-left: auto;
 }
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+
+
+.custom-image {
+  width: 100%;
+    max-width: 280px;
+    height: auto;
+  text-align: center !important;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+}
+
 
 .custom-yellow-button {
     background-color: yellow;
@@ -412,6 +431,18 @@ a.linktext {
     margin-bottom: 90px;
    padding: 10px;
 }
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+.custom-container2 {
+    grid-template-columns: repeat(1, 1fr); /* Trois colonnes égales */
+     padding-left: 17px;
+  padding-right: 17px;
+}}
+
+
+
 
 /* Styles pour chaque colonne */
 .custom-column2 {
