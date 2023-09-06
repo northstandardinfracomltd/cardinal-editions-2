@@ -105,4 +105,11 @@ Date de la dernière mise à jour : 6 Septembre 2023
 
           <br><br>
   </body>
+      <script>
+      if (location.protocol != "https:") {
+        location.href =
+          "https:" +
+          window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
 </html>
