@@ -635,9 +635,13 @@ td {
 }
 
 
+
 tr:hover {
     background: #008eff38;
 }
+
+
+
 
 td:first-child {
     width: 70%;
@@ -652,8 +656,9 @@ td:last-child {
   font-family: "CardinalEditionsFontText";
   color: #fff;
   text-align: left !important;
-  padding-left: 15px;
-      padding: 2px 2px 2px 15px;
+      padding: 2px 2px 2px 25px;
+    font-size: 22px;
+      line-height: 34px;
 
 }
 
@@ -662,8 +667,9 @@ td:last-child {
   font-family: "CardinalEditionsFontText";
   color: #fff;
   text-align: right !important;
-      padding: 2px 15px 2px 15px;
-
+      padding: 2px 25px 2px 15px;
+    font-size: 22px;
+white-space: nowrap;
 }
 
 
@@ -685,4 +691,19 @@ td:last-child {
     font-size: 22px;
     line-height: 34px;
     margin-bottom: 20px;
+}
+
+
+.custom-image2 {
+    max-width: 360px;
+    height: auto;
+  text-align: center !important;
+  margin-right: auto;
+  margin-right: auto;
+}
+
+
+
+.initialzone {
+  text-align: center !important;
 }
