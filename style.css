@@ -364,6 +364,7 @@ a.linktext {
         .image {
           width: 100%;
             max-width: 300px; /* Largeur maximale de l'image */
+          padding-left: 5px;
         }
   
 }
@@ -530,12 +531,11 @@ padding: 10px;
 
 
         .process {
-padding-left: 22px;
-          padding-right:
+padding-left: 17px;
+          padding-right: 17px;
         }
 
 }
-
 
 
 
@@ -550,6 +550,20 @@ border: 1px solid #414141;
           margin-bottom: 30px;
           cursor: pointer;
 box-shadow: 20px -1px 2.74416px rgb(48 48 48 / 3%), -2px 11px 5.48831px rgb(61 61 61 / 4%), 0px -18px 10.9766px rgb(60 60 60 / 5%), 0px 14px 20.5812px rgb(58 58 58 / 6%), 0px 12px 41.1623px rgb(61 61 61 / 7%), -20px 0px 89.1851px rgb(38 38 38 / 9%);
+
+}
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+
+
+
+        .stage {
+
+          margin-bottom: 20px;
+}
+
 
 }
 
