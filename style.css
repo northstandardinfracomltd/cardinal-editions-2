@@ -627,18 +627,16 @@ grid-template-columns: repeat(2, 1fr);
 table {
     width: 100%;
     border-collapse: collapse;
-  border-radius: 12px;
 }
 
 td {
-    border: 1px solid #ccc;
-    border-radius: 12px;
+    border: 0px dashed #414141;
 
 }
 
 
 td:hover {
-    background: red;
+    background: #008453;
 }
 
 td:first-child {
@@ -663,8 +661,8 @@ td:last-child {
 .texttab2 {
   font-family: "CardinalEditionsFontText";
   color: #fff;
-  text-align: left !important;
-      padding: 2px 2px 2px 15px;
+  text-align: right !important;
+      padding: 2px 15px 2px 15px;
 
 }
 
