@@ -204,6 +204,7 @@ a.linktext {
   font-size: 22px;
   line-height: 34px;
   text-decoration: none !important;
+  padding: 0px !important; 
 }
 
 
@@ -634,6 +635,10 @@ td {
 
 }
 
+tr {
+    cursor: none;
+  padding-top: 5px;
+}
 
 
 tr:hover {
@@ -682,7 +687,7 @@ white-space: nowrap;
 
 
 .subpagetit {
-    max-width: 1000px;
+    max-width: 860px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -690,7 +695,10 @@ white-space: nowrap;
     color: #fff;
     font-size: 22px;
     line-height: 34px;
-    margin-bottom: 20px;
+    margin-bottom: 33px;
+  margin-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
