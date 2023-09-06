@@ -678,6 +678,12 @@ white-space: nowrap;
 
 
 
+.blob {
+white-space: nowrap;
+}
+
+
+
   .page-cost {
   background: #008453;
 }
