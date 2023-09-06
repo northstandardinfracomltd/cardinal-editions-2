@@ -755,3 +755,20 @@ white-space: nowrap;
   padding-left: 15px;
   padding-right: 15px;
 }
+
+
+
+.subpagetit4 {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: "CardinalEditionsFontText";
+    color: #fff;
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 33px;
+  margin-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
