@@ -330,7 +330,7 @@ a.linktext {
         }
 
         .image {
-            max-width: 480px; /* Largeur maximale de l'image */
+            max-width: 460px; /* Largeur maximale de l'image */
           margin-left: auto;
           margin-top: 20px;
           margin-bottom: 20px;
