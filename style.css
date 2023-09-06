@@ -620,3 +620,54 @@ grid-template-columns: repeat(2, 1fr);
     font-weight: bold;
     cursor: pointer;
 }
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  border-radius: 12px;
+}
+
+td {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+
+}
+
+
+td:hover {
+    background: red;
+}
+
+td:first-child {
+    width: 70%;
+}
+
+td:last-child {
+    width: 30%;
+}
+
+
+.texttab {
+  font-family: "CardinalEditionsFontText";
+  color: #fff;
+  text-align: left !important;
+  padding-left: 15px;
+      padding: 2px 2px 2px 15px;
+
+}
+
+
+.texttab2 {
+  font-family: "CardinalEditionsFontText";
+  color: #fff;
+  text-align: left !important;
+      padding: 2px 2px 2px 15px;
+
+}
+
+
+
+  
